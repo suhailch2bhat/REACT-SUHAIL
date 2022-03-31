@@ -1,1 +1,93 @@
-
+.div{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    }
+    .group {
+        border: 2px white solid;
+        height: 50vh;
+        display: flex;}
+    
+    .yellow {
+        background-color: yellow;
+        width: 100%;
+        height: 100%;
+        margin-left: 7.5px;
+    }
+    .yellow:first-child {
+        margin-left: 0px;
+    }
+    .red {
+        background-color: red;
+        width: 100%;
+    }
+    .blue {
+        background-color: blue;
+        width: 33.3%;
+        margin-left: 7.5px;
+    }
+    .blue:first-child {
+        margin-left: 0px;
+    }
+    @media screen and (min-width: 0px) and  (max-width: 320px){
+    .group{
+        display: flex;
+        flex-direction: column;
+    }
+    .blue{
+        width: 100%;
+        height: 50vh;
+        margin-top:7.5px;
+        margin-left: 0px;
+    
+    }
+    .yellow{
+        margin-left: 0px;
+        margin-top: 7.5px;
+        flex-direction: row;
+    }
+    .yellow:last-child{
+        margin-bottom: 7.5px;
+    }
+    .blue:first-child,.yellow:first-child{
+        margin-top:0px;
+    }
+    .blue:last-child{
+        margin-top: 0px;
+    }
+    #blue{
+        width: 0px;
+        height: 0px;
+    }
+    .red{
+        height: 100vh;
+    }
+    
+    }
+    @media screen and (min-width: 321px) and  (max-width: 768px){
+        #bluegroup{
+            display: block;
+        }
+    
+        .blue{
+            display: block;
+            width:100%;
+            height: 25vh;
+            margin-top:7.5px;
+            /* margin-left: 0px; */
+        
+        }
+        .blue:first-child,.yellow:first-child{
+            margin-top:0px;
+        }
+        .blue:last-child{
+            display: none;
+        }
+        #blue{
+            width: 0px;
+            height: 0px;
+        }
+        .blue:nth-child(2){
+            margin-left: 0px;
+        }
+    }
