@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import "./logo.svg"
 
 const employee = {
   name: 'Tom',
@@ -11,7 +11,7 @@ const employee = {
   bloodGroup: 'B+',
   age: 28,
   profileImg: 'https://www.w3schools.com/howto/img_avatar.png'
-       }
+}
 
 ReactDOM.render(
   <React.StrictMode>

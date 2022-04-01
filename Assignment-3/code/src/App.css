@@ -1,0 +1,34 @@
+.site-container{
+    margin: 30px;
+    width:60%;
+    height: 70vh;
+    border: solid green 2px;
+    background-color: beige;
+}
+.para{
+    border: solid green 2px;
+    background-color: black;
+    width: 100%;
+    height: 16%;
+    margin: 10px;
+}
+.contact{
+    border: solid green 2px;
+    
+    width: 100%;
+    height: 16%;
+    margin: 10px;
+}
+.list{
+    border: solid green 2px;
+    width: 100%;
+    height: 25%;
+    margin: 10px;
+    background-color: rgb(212, 208, 208);
+}
+.img{
+    border: solid green 2px;
+    width: 100%;
+    height: 25%;
+    margin: 10px;
+}
