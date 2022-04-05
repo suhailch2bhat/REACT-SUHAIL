@@ -1,34 +1,123 @@
 .site-container{
     margin: 30px;
-    width:60%;
-    height: 70vh;
+    width:97%;
+    height: 100%;
     border: solid green 2px;
     background-color: beige;
 }
 .para{
+    display: inline-block;
     border: solid green 2px;
     background-color: black;
-    width: 100%;
+    width: 97%;
     height: 16%;
     margin: 10px;
+    color: white;
 }
+.name{
+    display: inline-block;
+    width: 30%;
+    margin-left: 150px;
+}
+/* p{
+    display: inline-block;
+    /* margin-left:30%; */
+    /* border: solid white 20px; */
+    /* width: 30%; */
+/* } */ 
+.btn{
+    margin-top: 0px;
+   display: inline-block;
+   background-color:rgb(241, 24, 24);
+   width: 10%;
+   height: 30%;
+}
+
 .contact{
     border: solid green 2px;
     
-    width: 100%;
-    height: 16%;
+    width: 97%;
+    height: 50%;
     margin: 10px;
+}
+.spann{
+    margin-left: 20px;
+    font-size: large;
 }
 .list{
     border: solid green 2px;
-    width: 100%;
-    height: 25%;
+    width: 97%;
+    height: 10%;
     margin: 10px;
     background-color: rgb(212, 208, 208);
 }
-.img{
-    border: solid green 2px;
-    width: 100%;
-    height: 25%;
+table{
+    margin: 50px;
+}
+tr{
+    width: 90%;
+    height: 40%;
+}
+th{
+    width: 30%;
+    height: 40%;
+}
+td{
+    width: 30%;
+    height: 40%;
+    /* border: solid; */
+    padding: 20px;
+}
+.imgg{
+    border: solid rgb(30, 102, 30) 2px;
+    width: 97%;
+    height: 50%;
     margin: 10px;
+    display: flex;
+}
+img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: solid black;
+}
+.pl{
+    border: solid black;
+    display: flex;
+    width: 30%;
+    height: 100%;
+    /* margin-left: 250px;
+    margin-bottom: 200px; */
+
+}
+.p2{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    /* margin: 20px; */
+    /* border: solid black; */
+}
+.p3{
+    display:block;
+    /* border: solid; */
+    width: 100%;
+    height: 45%;
+    /* margin: 0%; */
+
+}
+.h1{
+    display: block;
+    /* border: solid; */
+    width: 100%;
+    height:  2%;
+    /* margin: 0%; */
+
+}
+.box{
+    border: solid yellow 3px;
+    height: 10px;
+    margin-top: 70px;
+    margin-bottom: 45px;
+    margin-left: 23px;
 }
