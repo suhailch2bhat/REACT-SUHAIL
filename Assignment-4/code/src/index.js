@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Postview from './Postview';
+// import Postview from './Postview';
 import reportWebVitals from './reportWebVitals';
-import Posttop from "./post/Posttop";
+// import Posttop from "./post/Posttop";
+import App from './App';
 import "./post/imagetop.png"
 
 
@@ -12,8 +13,8 @@ import "./post/imagetop.png"
 
 ReactDOM.render(
   <React.StrictMode>
-     <Posttop  />
-    <Postview />
+   
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
